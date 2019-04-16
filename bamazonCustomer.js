@@ -30,7 +30,6 @@ function displayProducts() {
         console.table(res);
 
         start(res);
-        // connection.end();
 
     });
 }
@@ -54,14 +53,14 @@ function start(results) {
             var chosenItem;
         
             for (var i = 0; i < results.length; i++) {
-                //console.log(results[i].item_id);
+
                 if (results[i].item_id === answer.idOfProduct) {
                     
                     chosenItem = results[i];
 
                 }
             }
-            //console.log(results);
+
             console.table(chosenItem);
             console.log(chosenItem.stock_quantity);
             console.log(answer.stock_quantity);
