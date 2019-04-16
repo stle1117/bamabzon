@@ -1,2 +1,2 @@
 # bamazon
-Amazon-like storefront with the MySQL. The app will takes in orders from customers and deplete stock from the store's inventory.
+Amazon-like storefront Node.js application created with JavaScript and MySQL. The app takes in orders from customers and depletes stock from the store's inventory.
